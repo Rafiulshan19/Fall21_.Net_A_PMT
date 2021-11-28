@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4b46c0e7352c4b818c4a6d5deac38d0d" Name="Diagram1">
+        <EntityTypeShape EntityType="PMAModel.Manage" Width="1.5" PointX="4.625" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMAModel.Member" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMAModel.Project" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMAModel.Supervisor" Width="1.5" PointX="1" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="PMAModel.FK_Manages_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="PMAModel.FK_Manages_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="PMAModel.FK_Manages_Supervisors" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
