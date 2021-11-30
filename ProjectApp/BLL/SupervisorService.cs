@@ -11,33 +11,14 @@ namespace BLL
 {
     public class SupervisorService
     {
-        public static List<SupervisorModel> Get()
+        public static SupervisorModel Get(Supervisor s)
         {
             var config = new MapperConfiguration(c =>
-            {
-                c.CreateMap<Supervisor, SupervisorModel>();
-                c.CreateMap<Member, MemberModel>();
-            });
+                c.CreateMap<Supervisor, SupervisorModel>()
+           );
             var mapper = new Mapper(config);
-            var da = DataAccess.SupervisorDataAcees();
-            var data = mapper.Map<List<SupervisorModel>>(da.Get());
+           var data = mapper.Map<SupervisorModel>(DataAccess.SupervisorDataAcees().Get(s.Email, s.Password));
             return data;
-        }
-        public static List<string> GetNames()
-        {
-            var data = DataAccess.SupervisorDataAcees().Get().Select(e => e.Name).ToList();
-            return data;
-        }
-        public static void Add(SupervisorModel s)
-        {
-            var config = new MapperConfiguration(c =>
-            {
-                c.CreateMap<SupervisorModel, Supervisor>();
-
-            });
-            var mapper = new Mapper(config);
-            var data = mapper.Map<Supervisor>(s);
-            DataAccess.SupervisorDataAcees().Add(data);
         }
     }
 }

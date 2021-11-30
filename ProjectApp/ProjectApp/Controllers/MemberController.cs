@@ -6,28 +6,18 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ProjectApp.Controllers
 {
     public class MemberController : ApiController
     {
-        [Route("api/Member/Names")]
-        [HttpGet]
-        public List<string> GetNames()
-        {
-            return MemberService.GetNames();
-        }
-        [Route("api/Member/All")]
-        [HttpGet]
-        public List<MemberModel> GetAll()
-        {
-            return MemberService.Get();
-        }
-        [Route("api/Member/Create")]
+        [EnableCors("*", "*", "*")]
+        [Route("api/Members/login")]
         [HttpPost]
-        public void Add(MemberModel s)
+        public MemberModel Login(MemberModel m)
         {
-            MemberService.Add(s);
+            return MemberService.GetM(m);
         }
     }
 }

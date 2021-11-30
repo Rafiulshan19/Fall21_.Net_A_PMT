@@ -14,14 +14,19 @@ namespace DAL
             db = new PMAEntities2();
         }
         
-        public static Repository<Supervisor, int> SupervisorDataAcees()
+        public static IRepositoryS SupervisorDataAcees()
         {
             return new SupervisorRepo(db);
         }
-        public static Repository<Member, int> MemberDataAccess()
+        public static IRepositoryM MemberDataAccess()
         {
             return new MemberRepo(db);
         }
         
+        public static IRepositoryP ProjectDataAccess()
+        {
+            return new ProjectRepo(db);
+        }
+
     }
 }

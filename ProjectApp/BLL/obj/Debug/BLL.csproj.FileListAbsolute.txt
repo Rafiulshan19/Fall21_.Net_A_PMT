@@ -14,3 +14,35 @@ F:\Fall 20-21\Advance .NET\A\ProjectApp\BLL\obj\Debug\BLL.csproj.CoreCompileInpu
 F:\Fall 20-21\Advance .NET\A\ProjectApp\BLL\obj\Debug\BLL.csproj.CopyComplete
 F:\Fall 20-21\Advance .NET\A\ProjectApp\BLL\obj\Debug\BLL.dll
 F:\Fall 20-21\Advance .NET\A\ProjectApp\BLL\obj\Debug\BLL.pdb
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\BLL.dll
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\BLL.pdb
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\AutoMapper.dll
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\BEL.dll
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\DAL.dll
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\EntityFramework.dll
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\BEL.pdb
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\DAL.pdb
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\DAL.dll.config
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\AutoMapper.xml
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\bin\Debug\EntityFramework.xml
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\obj\Debug\BLL.csproj.CopyComplete
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\obj\Debug\BLL.dll
+F:\Fall 20-21\Advance .NET\ProjectApp\BLL\obj\Debug\BLL.pdb
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\BLL.dll
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\BLL.pdb
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\AutoMapper.dll
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\BEL.dll
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\DAL.dll
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\EntityFramework.dll
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\BEL.pdb
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\DAL.pdb
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\DAL.dll.config
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\AutoMapper.xml
+C:\Users\rafiu\source\repos\ProjectApp\BLL\bin\Debug\EntityFramework.xml
+C:\Users\rafiu\source\repos\ProjectApp\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\rafiu\source\repos\ProjectApp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\rafiu\source\repos\ProjectApp\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\rafiu\source\repos\ProjectApp\BLL\obj\Debug\BLL.dll
+C:\Users\rafiu\source\repos\ProjectApp\BLL\obj\Debug\BLL.pdb

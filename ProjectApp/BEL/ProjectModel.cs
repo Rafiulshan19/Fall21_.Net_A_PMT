@@ -12,7 +12,6 @@ namespace BEL
         public int Id { get; set; }
         public string Title { get; set; }
         public string Detail { get; set; }
-        // public string Email { get; set; }
-        public virtual Manage Manage { get; set; }
+        //public virtual Manage Manage { get; set; }
     }
 }

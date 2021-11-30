@@ -76,3 +76,11 @@ F:\Fall 20-21\Advance .NET\A\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.C
 F:\Fall 20-21\Advance .NET\A\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.CopyComplete
 F:\Fall 20-21\Advance .NET\A\ProjectApp\ProjectApp\obj\Debug\ProjectApp.dll
 F:\Fall 20-21\Advance .NET\A\ProjectApp\ProjectApp\obj\Debug\ProjectApp.pdb
+F:\Fall 20-21\Advance .NET\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.AssemblyReference.cache
+F:\Fall 20-21\Advance .NET\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.CoreCompileInputs.cache
+F:\Fall 20-21\Advance .NET\ProjectApp\ProjectApp\obj\Debug\ProjectApp.dll
+F:\Fall 20-21\Advance .NET\ProjectApp\ProjectApp\obj\Debug\ProjectApp.pdb
+C:\Users\rafiu\source\repos\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.AssemblyReference.cache
+C:\Users\rafiu\source\repos\ProjectApp\ProjectApp\obj\Debug\ProjectApp.csproj.CoreCompileInputs.cache
+C:\Users\rafiu\source\repos\ProjectApp\ProjectApp\obj\Debug\ProjectApp.dll
+C:\Users\rafiu\source\repos\ProjectApp\ProjectApp\obj\Debug\ProjectApp.pdb

@@ -6,28 +6,19 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ProjectApp.Controllers
 {
+    [EnableCors("*","*","*")]
     public class SupervisorController : ApiController
     {
-        [Route("api/Supervisor/Names")]
-        [HttpGet]
-        public List<string> GetNames()
-        {
-            return SupervisorService.GetNames();
-        }
-        [Route("api/Supervisor/All")]
-        [HttpGet]
-        public List<SupervisorModel> GetAll()
-        {
-            return SupervisorService.Get();
-        }
-        [Route("api/Student/Create")]
+        [Route("api/Supervisors/login")]
         [HttpPost]
-        public void Add(SupervisorModel s)
+        public SupervisorModel Login(SupervisorModel s)
         {
-            SupervisorService.Add(s);
+            return SupervisorService.Get(s);
         }
+
     }
 }

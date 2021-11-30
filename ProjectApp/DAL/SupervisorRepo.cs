@@ -6,44 +6,22 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class SupervisorRepo : Repository<Supervisor, int>
+    public class SupervisorRepo : IRepositoryS
     {
-        private PMAEntities2 db;
+         PMAEntities2 db;
 
         public SupervisorRepo(PMAEntities2 db)
         {
             this.db = db;
         }
 
-        public void Add(Supervisor e)
+        public Supervisor Get(string email, string password)
         {
-            db.Supervisors.Add(e);
-            db.SaveChanges();
+            var data = (from s in db.Supervisors
+                        where s.Email == email && password == s.Password
+                        select s).FirstOrDefault();
+            return data;
         }
 
-        public void Delete(int id)
-        {
-            var s = db.Supervisors.FirstOrDefault(e => e.Id == id);
-            db.Supervisors.Remove(s);
-            db.SaveChanges();
-        }
-
-        public void Edit(Supervisor e)
-        {
-            var s = db.Supervisors.FirstOrDefault(en => en.Id == e.Id);
-            db.Entry(s).CurrentValues.SetValues(e);
-            db.SaveChanges();
-        }
-
-        public List<Supervisor> Get()
-        {
-            return db.Supervisors.ToList();
-        }
-
-        public Supervisor Get(int id)
-        {
-            return db.Supervisors.FirstOrDefault(e => e.Id == id);
-
-        }
     }
 }

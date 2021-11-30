@@ -51,6 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccess.cs" />
+    <Compile Include="IRepositoryManage.cs" />
+    <Compile Include="IRepositoryP.cs" />
+    <Compile Include="IRepositoryS.cs" />
+    <Compile Include="ManageRepo.cs" />
     <Compile Include="MemberRepo.cs" />
     <Compile Include="Manage.cs">
       <DependentUpon>PMA.tt</DependentUpon>
@@ -76,8 +80,9 @@
     <Compile Include="Project.cs">
       <DependentUpon>PMA.tt</DependentUpon>
     </Compile>
+    <Compile Include="ProjectRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
+    <Compile Include="IRepositoryM.cs" />
     <Compile Include="Supervisor.cs">
       <DependentUpon>PMA.tt</DependentUpon>
     </Compile>
