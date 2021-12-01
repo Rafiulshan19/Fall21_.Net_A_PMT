@@ -9,17 +9,21 @@ app.config(["$routeProvider","$locationProvider",function($routeProvider,$locati
         templateUrl : "views/pages/demopage.html",
         controller: 'demo'
     })
-    .when("/demo2", {
-        templateUrl : "views/pages/demo2.html",
-          controller: 'demo2'
+    .when("/supervisorlogin", {
+        templateUrl : "views/pages/SupervisorLogin.html",
+          controller: 'supervisorlogin'
     })
     .when("/products", {
         templateUrl : "views/pages/products.html",
         controller: 'products'
     })
-    .when("/login", {
-        templateUrl : "views/pages/login.html",
-        controller: 'login'
+    .when("/memberlogin", {
+        templateUrl : "views/pages/MemberLogin.html",
+        controller: 'memberlogin'
+    })
+    .when("/dashboard", {
+        templateUrl : "views/pages/dashboard.html",
+        
     })
     .otherwise({
         redirectTo:"/"

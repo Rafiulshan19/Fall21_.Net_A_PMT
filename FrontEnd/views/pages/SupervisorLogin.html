@@ -1,0 +1,20 @@
+<!--
+  <h1>Demo2</h1>
+<h5>{{lname}}</h5>
+<div>
+  <ul>
+    <li ng-repeat="c in myWelcome">{{c.Name}}</li>
+  </ul>
+  <h6>{{hello}}</h6>
+</div>
+-->
+
+<form ng-submit="submit()">
+  <h2>Sign In</h2>
+  <hr>
+  Email:<input type="email"  id="email" ng-model="email"><br><br>
+  Password:<input type="password"  id="password" ng-model="password"><br><br>
+  <hr>
+  <button type="button" ng-click="submit()" >Login</button>
+</form>
+
